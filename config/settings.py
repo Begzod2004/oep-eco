@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     'home',
+    'accounts',
 ]
 
 
@@ -142,6 +143,11 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
+
+
+ESKIZ_EMAIL = 'info@ecouz.uz'
+ESKIZ_PASSWORD = 'sgo9W5H0RHk9Xa6g88YV8qIHtJDgPEIfWUSFEaJz'
+
 
 
 # Static files (CSS, JavaScript, Images)
